@@ -147,17 +147,17 @@ input, select, textarea {
 		}
 
 	h1 {
-		font-size: 2em;
+		font-size: 30px;
 		line-height: 1.5em;
 	}
 
 	h2 {
-		font-size: 1.5em;
+		font-size: 20px;
 		line-height: 1.5em;
 	}
 
 	h3 {
-		font-size: 1.25em;
+		font-size: 10px;
 		line-height: 1.5em;
 	}
 
@@ -1791,7 +1791,7 @@ input, select, textarea {
 	}
 
 	header.major h2 {
-		font-size: 2em;
+		font-size: 1.3em;
 	}
 
 /* Form */
@@ -2600,11 +2600,11 @@ input, select, textarea {
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
-		padding: 8em 4em;
+		padding: 2em 2em 35em;
 		position: fixed;
 		text-align: right;
 		top: 0;
-		width: 35%;
+		width: 15%;
 	}
 
 		#header > * {
@@ -2622,7 +2622,13 @@ input, select, textarea {
 			flex-grow: 1;
 			margin: 0 0 2em 0;
 		}
-
+		#header > .head-author{
+			text-align: center;
+			margin: .67em 0;
+			font-family: Roboto,serif;
+			font-size: 30px;
+			transition: .3s;
+		}
 		#header strong, #header b {
 			color: #ffffff;
 		}
@@ -2642,7 +2648,13 @@ input, select, textarea {
 			margin: 0 0 1em 0;
 			width: 6.25em;
 		}
-
+	#head-author{
+		text-align: center;
+		margin: .67em 0;
+		font-family: Roboto,serif;
+		font-size: 30px;
+		transition: .3s;
+	}
 /* Footer */
 
 	#footer .icons {
@@ -2682,7 +2694,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		margin-left: 35%;
+		margin-left: 20%;
 		max-width: 54em;
 		padding: 8em 4em 4em 4em;
 		width: calc(100% - 35%);
